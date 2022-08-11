@@ -1,0 +1,176 @@
+.corpo {
+    background-color: #EFF1FA
+}
+
+.logo {
+    display: inline;
+    position: absolute;
+    padding: 40px;
+    left: 50px
+}
+
+.texto-principal {
+    position: absolute;
+    width: 680px;
+    height: 288px;
+    left: 240px;
+    top: 168px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    
+    background: transparent;
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+.botao-criptografar {
+    display: inline;
+    position: absolute;
+    top: 550px;
+    left: 235px;
+
+    width: 328px;
+    height: 67px;
+
+    background: #0A3871;
+    color:#EFF1FA;
+    font-weight: bold;
+    border-radius: 24px;
+    border: none;
+
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.botao-criptografar:hover {
+    transform: scale(1.0);
+    background: #2c4462;
+}
+
+
+.botao-descriptografar {
+    display: inline;
+    position: absolute;
+    top: 550px;
+    left: 580px;
+
+    width: 328px;
+    height: 67px;
+
+    color:#0A3871;
+    font-weight: bold;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background-color: transparent;
+
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.botao-descriptografar:hover {
+    transform: scale(1.0);
+    background: #FFFFFF;
+}
+
+
+.texto {
+    position: absolute;
+    width: 250px;
+    height: 580px;
+    top: 30px;
+    left: 1100px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+
+    resize: none;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+
+    padding: 30px;
+
+
+
+}
+
+.btn-copiar {
+    display: inline;
+    position: absolute;
+    top: 550px;
+    left: 1120px;
+    
+    width: 270px;
+    height: 67px;
+    
+    color: #0A3871;
+    font-weight: bold;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background-color: transparent;
+    
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.btn-copiar:hover {
+    transform: scale(1.0);
+    background: #EFF1FA;
+
+}
+
+.aviso-txt {
+    display: inline;
+    position: absolute;
+    
+    color: #495057;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    opacity: 0.8;
+
+    bottom: 178px;
+    left: 265px;
+
+}
+
+.aviso {
+    display: inline;
+    position: absolute;
+    bottom: 180px;
+    left: 240px;;
+}
+
+.github {
+    display: inline;
+    position: absolute;
+    margin: 10px;
+    max-width: 150px;
+    max-height: 45px;
+    bottom: 0;
+    left: 700px;
+
+}
+
+.in {
+    display: inline;
+    position: absolute;
+    margin: 10px;
+    max-width: 150px;
+    max-height: 45px;
+    bottom: 0;
+    left: 750px;
+
+}
