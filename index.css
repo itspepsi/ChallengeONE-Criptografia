@@ -53,7 +53,6 @@
     background: #2c4462;
 }
 
-
 .botao-descriptografar {
     display: inline;
     position: absolute;
@@ -78,7 +77,6 @@
     background: #FFFFFF;
 }
 
-
 .texto {
     position: absolute;
     width: 250px;
@@ -99,8 +97,6 @@
     border-radius: 24px;
 
     padding: 30px;
-
-
 
 }
 
@@ -175,6 +171,136 @@
 
 }
 
+
+@media (max-width: 812px) {
+    .logo {
+        display: inline;
+        position: absolute;
+        padding: 30px;
+        left: -10px;
+        top: -10px;
+
+        width: 30px;
+        height: 30px;
+    }
+
+    .texto {
+        display: inline;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 32px;
+
+        position: absolute;
+        width: 250px;
+        height: 150px;
+        left: 470px;
+
+    }
+
+    .botao-criptografar {
+        display: inline;
+        flex-direction: row;
+        align-items: flex-start;
+
+        width: 200px;
+        height: 70px;
+        left: 30px;
+        top: 250px;
+    }
+
+    .botao-criptografar:hover {
+        transform: scale(1.0);
+        background: #2c4462;
+    }
+
+    .botao-descriptografar {
+        display: inline;
+        flex-direction: row;
+        align-items: flex-start;
+
+        width: 200px;
+        height: 70px;
+        left: 235px;
+        top: 250px;
+    }
+
+    .botao-descriptografar:hover {
+        transform: scale(1.0);
+        background: #FFFFFF;
+    }
+
+    .aviso-txt {
+        display: inline;
+        position: absolute;
+
+        width: px;
+        height: 18px;
+        left: 60px;
+        top: 330px;
+
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .aviso {
+        display: inline;
+        position: absolute;
+
+        left: 35px;
+        top: 333px;
+    }
+
+    .btn-copiar {
+        display: inline;
+        flex-direction: row;
+
+        width: 270px;
+        height: 70px;
+        left: 495px;
+        top: 250px;
+    }
+
+    .btn-copiar:hover {
+        transform: scale(1.0);
+        background: #FFFFFF;
+    }
+
+    .texto-principal {
+        display: inline;
+        position: absolute;
+        width: 343px;
+        height: 48px;
+        left: 30px;
+        top: 100px;
+
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+
+    }
+
+    .github {
+        display: inline-block;
+        position: absolute;
+        top: 330px;
+        left: 700px;
+        width: 30px;
+    }
+
+    .in {
+        display: inline-block;
+        position: absolute;
+        top: 330px;
+        left: 735px;
+        width: 30px;
+    }
+
+}
+
 @media (max-width: 600px)  {
     .logo {
         display: inline-block;
@@ -194,8 +320,7 @@
        width: 327px;
        height: 186px;
        left: 105px;
-       top: 700px;
-        
+       top: 700px;   
     }
 
     .botao-criptografar {
@@ -211,6 +336,12 @@
         top: 525px;
     }
 
+    .botao-criptografar:hover {
+        transform: scale(1.0);
+        background: #2c4462;
+    
+    }
+
     .botao-descriptografar {
         display: inline;
         flex-direction: row;
@@ -222,6 +353,11 @@
         height: 80px;
         left: 105px;
         top: 610px;
+    }
+
+    .botao-descriptografar:hover {
+    transform: scale(1.0);
+    background: #FFFFFF;
     }
 
     .aviso-txt {
@@ -260,6 +396,11 @@
         top: 960px;
     }
 
+    .btn-copiar:hover {
+        transform: scale(1.0);
+        background: #FFFFFF;
+    }
+
     .texto-principal {
         display: inline;
         position: absolute;
@@ -291,3 +432,4 @@
     }    
 
 }
+
