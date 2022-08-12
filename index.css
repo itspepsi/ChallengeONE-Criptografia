@@ -175,7 +175,7 @@
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .logo {
         display: inline-block;
         position: absolute;
@@ -288,8 +288,5 @@
         padding: 30px;
         top: -30px;
         left: 360px;
-    }
-
-
-        
+    }     
 }
