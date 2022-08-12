@@ -174,3 +174,122 @@
     left: 750px;
 
 }
+
+@media (max-width: 375px) {
+    .logo {
+        display: inline-block;
+        position: absolute;
+        padding: 30px;
+        top: 30px
+    }
+
+    .texto {
+       display: inline;
+       flex-direction: column;
+       align-items: flex-start;
+       padding: 32px;
+       gap: 32px;
+
+       position: absolute;
+       width: 327px;
+       height: 186px;
+       left: 60px;
+       top: 750px;
+        
+    }
+
+    .botao-criptografar {
+        display: inline;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 8px;
+
+        width: 390px;
+        height:80px;
+        left: 60px;
+        top: 550px;
+    }
+
+    .botao-descriptografar {
+        display: inline;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 8px;
+        
+        width: 390px;
+        height: 80px;
+        left: 60px;
+        top: 650px;
+    }
+
+    .aviso-txt {
+        display: inline;
+        position: absolute;
+        
+        width: 228px;
+        height: 18px;
+        left: 100px;
+        top: 520px;
+
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .aviso {
+        display: inline;
+        position: absolute;
+        
+        left: 80px;
+        top: 523px;
+    }
+
+    .btn-copiar {
+        display: inline;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 8px;
+                
+        width: 390px;
+        height: 80px;
+        left: 60px;
+        top: 1020px;
+    }
+
+    .texto-principal {
+        display: inline;
+        position: absolute;
+        width: 343px;
+        height: 48px;
+        left: 50px;
+        top: 152px;
+
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+    }
+
+    .github {
+        display: inline-block;
+        position: absolute;
+        padding: 30px;
+        top: -30px;
+        left: 415px;
+    }
+
+    .in {
+        display: inline-block;
+        position: absolute;
+        padding: 30px;
+        top: -30px;
+        left: 360px;
+    }
+
+
+        
+}
