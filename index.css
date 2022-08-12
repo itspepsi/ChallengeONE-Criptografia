@@ -171,7 +171,6 @@
 
 }
 
-
 @media (max-width: 812px) {
     .logo {
         display: inline;
@@ -195,7 +194,6 @@
         width: 250px;
         height: 150px;
         left: 470px;
-
     }
 
     .botao-criptografar {
@@ -286,7 +284,7 @@
     .github {
         display: inline-block;
         position: absolute;
-        top: 330px;
+        top: 325px;
         left: 700px;
         width: 30px;
     }
@@ -294,7 +292,7 @@
     .in {
         display: inline-block;
         position: absolute;
-        top: 330px;
+        top: 325px;
         left: 735px;
         width: 30px;
     }
@@ -339,7 +337,6 @@
     .botao-criptografar:hover {
         transform: scale(1.0);
         background: #2c4462;
-    
     }
 
     .botao-descriptografar {
@@ -356,8 +353,8 @@
     }
 
     .botao-descriptografar:hover {
-    transform: scale(1.0);
-    background: #FFFFFF;
+        transform: scale(1.0);
+        background: #FFFFFF;
     }
 
     .aviso-txt {
@@ -428,7 +425,7 @@
         position: absolute;
         padding: 30px;
         top: -30px;
-        left: 450px;
+        left: 465px;
     }    
 
 }
