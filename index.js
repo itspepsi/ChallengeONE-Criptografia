@@ -5,7 +5,6 @@ let botaoCriptografar = document.getElementById("btn-criptografar");
 let botaoDescriptografar = document.getElementById("btn-descriptografar");
 let botaoCopiar = document.getElementById("btn-copiar");
 
-
 botaoCriptografar.onclick = criptografa;
 botaoDescriptografar.onclick = descriptografa;
 botaoCopiar.onclick = copiar;
@@ -42,4 +41,3 @@ function copiar() {
     resultado.select();
     document.execCommand("cut")
 }
-
